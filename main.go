@@ -2,8 +2,9 @@ package main
 
 import (
 	"context"
-	"gofluttergrpc/proto"
 	"net"
+
+	"gofluttergrpc/proto"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
